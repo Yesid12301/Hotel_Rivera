@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Hotel_Rivera.Negocios;
+using Hotel_Rivera.Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,12 @@ namespace Hotel_Rivera
         public Inicio()
         {
             InitializeComponent();
+        }
+        private void buscar()
+        {
+            CN_usuario oCN_usuario = new CN_usuario();
+            CE_usuario CE_usuario = new CE_usuario();
+            oCN_usuario.buscar();
         }
     }
 }
