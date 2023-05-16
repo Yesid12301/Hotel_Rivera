@@ -1,20 +1,26 @@
-﻿using System;
+﻿using Hotel_Rivera.Datos;
+using Hotel_Rivera.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hotel_Rivera.Datos;
-using Hotel_Rivera.Entidades;
+using System.Windows.Forms;
 
 namespace Hotel_Rivera.Negocios
 {
     public class CN_usuario
-    {
-        public void buscar()
+    {      
+        CD_usuario oCD_usuario = new CD_usuario();
+        public bool buscarUsuario(CE_usuario oCE_usuario)
         {
-            CD_usuarios CD_usuarios = new CD_usuarios();
-            CE_usuario CE_usuario = new CE_usuario();
-            CD_usuarios.buscar();
+            oCE_usuario.Contraseña = Contraseña.Encriptacion(oCE_usuario.Contraseña);
+            return oCD_usuario.buscarUsuario(oCE_usuario);
+        }
+        public void editarUsuario(CE_usuario oCE_usuario)
+        {
+            oCE_usuario.Contraseña = Contraseña.Encriptacion(oCE_usuario.Contraseña);
+            oCD_usuario.editarUsuario(oCE_usuario);
         }
     }
 }

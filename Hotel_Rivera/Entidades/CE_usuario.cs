@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Hotel_Rivera.Entidades
 {
-    internal class CE_usuario
+    public class CE_usuario
     {
+        public string Nombre { get; set; }
+        public string Contraseña { get; set;}
+        public string Correo { get;set;}
+
     }
 }

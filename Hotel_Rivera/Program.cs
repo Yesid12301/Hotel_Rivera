@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hotel_Rivera.Presentacion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,12 +12,13 @@ namespace Hotel_Rivera
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        public static Inicio inicio;
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio());
+            Application.Run(inicio = new Inicio());
         }
     }
 }
