@@ -66,9 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\CD_conexion.cs" />
-    <Compile Include="Datos\Correo.cs" />
     <Compile Include="Datos\CD_usuario.cs" />
     <Compile Include="Entidades\CE_usuario.cs" />
+    <Compile Include="Negocios\CN_correo.cs" />
     <Compile Include="Negocios\CN_usuario.cs" />
     <Compile Include="Negocios\Encriptacion.cs" />
     <Compile Include="Presentacion\CambioContraseña.cs">
@@ -76,6 +76,24 @@
     </Compile>
     <Compile Include="Presentacion\CambioContraseña.Designer.cs">
       <DependentUpon>CambioContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Confirmación.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Confirmación.Designer.cs">
+      <DependentUpon>Confirmación.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Habitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Habitaciones.Designer.cs">
+      <DependentUpon>Habitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Reservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Reservas.Designer.cs">
+      <DependentUpon>Reservas.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Usuario.cs">
       <SubType>Form</SubType>
@@ -105,6 +123,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Presentacion\CambioContraseña.resx">
       <DependentUpon>CambioContraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Confirmación.resx">
+      <DependentUpon>Confirmación.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Habitaciones.resx">
+      <DependentUpon>Habitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Reservas.resx">
+      <DependentUpon>Reservas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Usuario.resx">
       <DependentUpon>Usuario.cs</DependentUpon>

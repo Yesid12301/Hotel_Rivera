@@ -26,15 +26,16 @@ namespace Hotel_Rivera.Presentacion
             if (txtNueva.Text == txtConfirmar.Text)
             {
                 oCE_usuario.Nombre = "admin";
-                oCE_usuario.Contraseña = txtContraseñaActual.Text;
+                oCE_usuario.Contraseña = txtContraseñaActual.Text.Trim();
                 if (oCN_usuario.buscarUsuario(oCE_usuario))
                 {
-                    oCE_usuario.Contraseña = txtNueva.Text;
+                    oCE_usuario.Contraseña = txtNueva.Text.Trim(); ;
                     oCN_usuario.editarUsuario(oCE_usuario);
-                    MessageBox.Show("Contraseña Modificada");
-                    this.Close();
+                     this.Close();
+
 
                     //Opcion 1
+
                     Opciones opciones = Application.OpenForms.OfType<Opciones>().FirstOrDefault();
                     opciones?.Close();
                     Program.inicio.Show();
@@ -46,18 +47,16 @@ namespace Hotel_Rivera.Presentacion
                 }
                 else
                 {
-                    Validacion validacion = new Validacion();
-                    validacion.Show();
+                    lblerror.Visible = true;
                 }
             }
             else
             {
-                Validacion validacion = new Validacion();
-                validacion.Show();
+                lblVacios.Visible = true;
             }
         }
 
-        #region Botones
+        #region Botones Principales
         private void btnSalir_MouseLeave(object sender, EventArgs e)
         {
             btnSalir.BackColor = Color.SteelBlue;
@@ -71,6 +70,54 @@ namespace Hotel_Rivera.Presentacion
         {
             this.Close();
         }
+
+        private void txtContraseñaActual_Click(object sender, EventArgs e)
+        {
+            lblerror.Visible = false;
+            lblVacios.Visible = false;
+        }
+
+        private void txtNueva_Click(object sender, EventArgs e)
+        {
+            lblerror.Visible = false;
+            lblVacios.Visible = false;
+        }
+
+        private void txtConfirmar_Click(object sender, EventArgs e)
+        {
+            lblerror.Visible = false;
+            lblVacios.Visible = false;
+        }
+        private void ptbOcultar_Click(object sender, EventArgs e)
+        {
+          
+            txtNueva.UseSystemPasswordChar = true;
+            txtConfirmar.UseSystemPasswordChar = true;
+            ptbOcultar.Visible = false;
+            ptbMostrar.Visible = true;
+
+        }
+
+        private void ptbMostrar_Click(object sender, EventArgs e)
+        {
+            txtNueva.UseSystemPasswordChar = false;
+            txtConfirmar.UseSystemPasswordChar = false;
+            ptbMostrar.Visible = false;
+            ptbOcultar.Visible = true;
+        }
+        private void ptbMostrar1_Click(object sender, EventArgs e)
+        {
+            txtContraseñaActual.UseSystemPasswordChar = false;
+            ptbMostrar1.Visible = false;
+            ptbOcultar1.Visible = true;
+        }
+
+        private void ptbOcultar1_Click(object sender, EventArgs e)
+        {
+            txtContraseñaActual.UseSystemPasswordChar = true;
+            ptbOcultar1.Visible = false;
+            ptbMostrar1.Visible = true;
+        }
         #endregion
          // para darle bordes al formulario ovalados 
         private void Usuario_Load(object sender, EventArgs e)
@@ -79,6 +126,9 @@ namespace Hotel_Rivera.Presentacion
         }
         [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, int nWidthEllipse, int nHeightEllipse);
+
+        
+
 
         //
 

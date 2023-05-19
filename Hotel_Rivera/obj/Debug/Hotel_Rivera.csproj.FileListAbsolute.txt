@@ -114,3 +114,107 @@ E:\Programacion\C#\Pruebas_Mias\Intefaz\Hotel_Rivera-2\obj\Debug\Hotel_Rivera.cs
 E:\Programacion\C#\Pruebas_Mias\Intefaz\Hotel_Rivera-2\obj\Debug\Hotel_Rivera.csproj.CopyComplete
 E:\Programacion\C#\Pruebas_Mias\Intefaz\Hotel_Rivera-2\obj\Debug\Hotel_Rivera.exe
 E:\Programacion\C#\Pruebas_Mias\Intefaz\Hotel_Rivera-2\obj\Debug\Hotel_Rivera.pdb
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe.config
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\Hotel_Rivera.pdb
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\EntityFramework.dll
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.dll
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\System.Data.SQLite.dll
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\System.Data.SQLite.EF6.dll
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\System.Data.SQLite.Linq.dll
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\EntityFramework.xml
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.xml
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\bin\Debug\System.Data.SQLite.xml
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.AssemblyReference.cache
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.SuggestedBindingRedirects.cache
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.CambioContraseña.resources
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Usuario.resources
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.Inicio.resources
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Opciones.resources
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Validacion.resources
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.Properties.Resources.resources
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.GenerateResource.cache
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CoreCompileInputs.cache
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CopyComplete
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.exe
+E:\PRO_Hotel Rivera\Hotel\Hotel_Rivera\obj\Debug\Hotel_Rivera.pdb
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe.config
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\Hotel_Rivera.pdb
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\EntityFramework.dll
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\System.Data.SQLite.dll
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\EntityFramework.xml
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\bin\Debug\System.Data.SQLite.xml
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.AssemblyReference.cache
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.CambioContraseña.resources
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Usuario.resources
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Inicio.resources
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Opciones.resources
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Validacion.resources
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Properties.Resources.resources
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.GenerateResource.cache
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CoreCompileInputs.cache
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CopyComplete
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.exe
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.pdb
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Confirmación.resources
+C:\Users\Sena CSET\Desktop\evaluacion sebastian\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Reservas.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe.config
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\Hotel_Rivera.pdb
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\EntityFramework.dll
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.dll
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\System.Data.SQLite.dll
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\EntityFramework.xml
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.xml
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\bin\Debug\System.Data.SQLite.xml
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.AssemblyReference.cache
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.SuggestedBindingRedirects.cache
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.CambioContraseña.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Confirmación.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Reservas.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Usuario.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Inicio.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Opciones.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Validacion.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Properties.Resources.resources
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.GenerateResource.cache
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CoreCompileInputs.cache
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CopyComplete
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.exe
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.pdb
+D:\Omar\PROYECTO_HOTELRIVERA\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Habitaciones.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe.config
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\Hotel_Rivera.exe
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\Hotel_Rivera.pdb
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\EntityFramework.dll
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\System.Data.SQLite.dll
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\EntityFramework.xml
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\bin\Debug\System.Data.SQLite.xml
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.AssemblyReference.cache
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.SuggestedBindingRedirects.cache
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.CambioContraseña.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Confirmación.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Habitaciones.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Reservas.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Usuario.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Inicio.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Opciones.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Presentacion.Validacion.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.Properties.Resources.resources
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.GenerateResource.cache
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CoreCompileInputs.cache
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.csproj.CopyComplete
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.exe
+C:\Users\omar1\OneDrive\Documents\Hotel_Rivera\obj\Debug\Hotel_Rivera.pdb

@@ -39,11 +39,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnIngresar = new System.Windows.Forms.Button();
             this.ptbMostrar = new System.Windows.Forms.PictureBox();
             this.ptbOcultar = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lblerror = new System.Windows.Forms.Label();
+            this.btnIngresarBlanco = new System.Windows.Forms.Button();
+            this.btnIngresarNegro = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -78,6 +80,7 @@
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.Size = new System.Drawing.Size(228, 24);
             this.txtContrasena.TabIndex = 2;
+            this.txtContrasena.Click += new System.EventHandler(this.txtContrasena_Click);
             // 
             // lblUsuario
             // 
@@ -104,13 +107,14 @@
             // lblOlvidar
             // 
             this.lblOlvidar.AutoSize = true;
+            this.lblOlvidar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblOlvidar.Font = new System.Drawing.Font("Bell MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOlvidar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblOlvidar.Location = new System.Drawing.Point(463, 422);
+            this.lblOlvidar.Location = new System.Drawing.Point(476, 422);
             this.lblOlvidar.Name = "lblOlvidar";
-            this.lblOlvidar.Size = new System.Drawing.Size(163, 19);
+            this.lblOlvidar.Size = new System.Drawing.Size(133, 19);
             this.lblOlvidar.TabIndex = 4;
-            this.lblOlvidar.Text = "¿Olvido Su Contraseña?";
+            this.lblOlvidar.Text = "¿No Lo Recuerdas?";
             this.lblOlvidar.Click += new System.EventHandler(this.lblOlvidar_Click);
             // 
             // panel1
@@ -127,9 +131,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(0)))), ((int)(((byte)(71)))));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-50, -39);
+            this.pictureBox1.Location = new System.Drawing.Point(-31, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(426, 432);
+            this.pictureBox1.Size = new System.Drawing.Size(397, 450);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -139,7 +143,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bell MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(450, 66);
+            this.label1.Location = new System.Drawing.Point(458, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(176, 31);
             this.label1.TabIndex = 10;
@@ -172,23 +176,10 @@
             this.btnSalir.MouseLeave += new System.EventHandler(this.btnSalir_MouseLeave);
             this.btnSalir.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnSalir_MouseMove);
             // 
-            // btnIngresar
-            // 
-            this.btnIngresar.FlatAppearance.BorderSize = 0;
-            this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIngresar.Image = ((System.Drawing.Image)(resources.GetObject("btnIngresar.Image")));
-            this.btnIngresar.Location = new System.Drawing.Point(510, 330);
-            this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(75, 58);
-            this.btnIngresar.TabIndex = 3;
-            this.btnIngresar.UseVisualStyleBackColor = true;
-            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
-            this.btnIngresar.MouseLeave += new System.EventHandler(this.btnIngresar_MouseLeave);
-            // 
             // ptbMostrar
             // 
             this.ptbMostrar.Image = ((System.Drawing.Image)(resources.GetObject("ptbMostrar.Image")));
-            this.ptbMostrar.Location = new System.Drawing.Point(669, 264);
+            this.ptbMostrar.Location = new System.Drawing.Point(669, 266);
             this.ptbMostrar.Name = "ptbMostrar";
             this.ptbMostrar.Size = new System.Drawing.Size(37, 34);
             this.ptbMostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -199,7 +190,7 @@
             // ptbOcultar
             // 
             this.ptbOcultar.Image = ((System.Drawing.Image)(resources.GetObject("ptbOcultar.Image")));
-            this.ptbOcultar.Location = new System.Drawing.Point(669, 263);
+            this.ptbOcultar.Location = new System.Drawing.Point(669, 266);
             this.ptbOcultar.Name = "ptbOcultar";
             this.ptbOcultar.Size = new System.Drawing.Size(37, 34);
             this.ptbOcultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -211,7 +202,6 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox3.Location = new System.Drawing.Point(433, 263);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(232, 37);
@@ -221,12 +211,57 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.White;
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Location = new System.Drawing.Point(433, 175);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(232, 37);
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
+            // 
+            // lblerror
+            // 
+            this.lblerror.AutoSize = true;
+            this.lblerror.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblerror.ForeColor = System.Drawing.Color.Orange;
+            this.lblerror.Location = new System.Drawing.Point(413, 314);
+            this.lblerror.Name = "lblerror";
+            this.lblerror.Size = new System.Drawing.Size(268, 19);
+            this.lblerror.TabIndex = 20;
+            this.lblerror.Text = "¡Datos incorrectos u campos vacios!";
+            this.lblerror.Visible = false;
+            // 
+            // btnIngresarBlanco
+            // 
+            this.btnIngresarBlanco.BackColor = System.Drawing.Color.Transparent;
+            this.btnIngresarBlanco.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnIngresarBlanco.BackgroundImage")));
+            this.btnIngresarBlanco.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnIngresarBlanco.Enabled = false;
+            this.btnIngresarBlanco.FlatAppearance.BorderSize = 0;
+            this.btnIngresarBlanco.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnIngresarBlanco.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnIngresarBlanco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIngresarBlanco.Location = new System.Drawing.Point(507, 344);
+            this.btnIngresarBlanco.Name = "btnIngresarBlanco";
+            this.btnIngresarBlanco.Size = new System.Drawing.Size(62, 53);
+            this.btnIngresarBlanco.TabIndex = 3;
+            this.btnIngresarBlanco.UseVisualStyleBackColor = false;
+            // 
+            // btnIngresarNegro
+            // 
+            this.btnIngresarNegro.BackColor = System.Drawing.Color.Transparent;
+            this.btnIngresarNegro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnIngresarNegro.BackgroundImage")));
+            this.btnIngresarNegro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnIngresarNegro.FlatAppearance.BorderSize = 0;
+            this.btnIngresarNegro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnIngresarNegro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnIngresarNegro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIngresarNegro.Location = new System.Drawing.Point(507, 344);
+            this.btnIngresarNegro.Name = "btnIngresarNegro";
+            this.btnIngresarNegro.Size = new System.Drawing.Size(62, 53);
+            this.btnIngresarNegro.TabIndex = 3;
+            this.btnIngresarNegro.UseVisualStyleBackColor = false;
+            this.btnIngresarNegro.Click += new System.EventHandler(this.btnIngresarNegro_Click);
+            this.btnIngresarNegro.MouseLeave += new System.EventHandler(this.btnIngresarNegro_MouseLeave);
+            this.btnIngresarNegro.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnIngresarNegro_MouseMove);
             // 
             // Inicio
             // 
@@ -235,12 +270,14 @@
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(735, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.btnIngresarNegro);
+            this.Controls.Add(this.btnIngresarBlanco);
+            this.Controls.Add(this.lblerror);
             this.Controls.Add(this.txtUusario);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.ptbOcultar);
             this.Controls.Add(this.ptbMostrar);
-            this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
@@ -278,13 +315,15 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Button btnOcultar;
         private System.Windows.Forms.PictureBox ptbMostrar;
         private System.Windows.Forms.PictureBox ptbOcultar;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label lblerror;
+        private System.Windows.Forms.Button btnIngresarBlanco;
+        private System.Windows.Forms.Button btnIngresarNegro;
     }
 }
 

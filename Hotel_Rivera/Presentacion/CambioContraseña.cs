@@ -50,8 +50,8 @@ namespace Hotel_Rivera.Presentacion
             Console.WriteLine("Recuerda que el usuario es:  admin");
             Console.WriteLine("Y su contraseña restablecidad sera:");
             Console.WriteLine(oCE_usuario.Contraseña);
+            CN_correo.RecuperarContra(oCE_usuario.Contraseña);
             oCN_usuario.editarUsuario(oCE_usuario);
-            //Correo.RecuperarContra(contra);
             this.Close();
         }
 

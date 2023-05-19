@@ -47,12 +47,7 @@ namespace Hotel_Rivera
 
         private void txtUusario_Click(object sender, EventArgs e)
         {
-            txtUusario.Clear();
-        }
-
-        private void btnIngresar_MouseLeave(object sender, EventArgs e)
-        {
-            btnIngresar.BackColor = Color.SteelBlue;
+            lblerror.Visible = false;
         }
 
         private void ptbMostrar_Click(object sender, EventArgs e)//que muestre la contraseña
@@ -62,17 +57,22 @@ namespace Hotel_Rivera
             ptbOcultar.Visible = true;
         }
 
+        private void txtContrasena_Click(object sender, EventArgs e)
+        {
+            lblerror.Visible = false;
+        }
         private void ptbOcultar_Click(object sender, EventArgs e)// lo contrario
         {
             txtContrasena.UseSystemPasswordChar = true;
             ptbMostrar.Visible = true;
             ptbOcultar.Visible = false;
         }
+       
         #endregion
 
-        private void btnIngresar_Click(object sender, EventArgs e)
+
+        private void Ingresar()
         {
-            
             oCE_usuario.Nombre = txtUusario.Text;
             oCE_usuario.Contraseña = txtContrasena.Text;
             if (oCN_usuario.buscarUsuario(oCE_usuario))
@@ -85,8 +85,7 @@ namespace Hotel_Rivera
             }
             else
             {
-                Validacion validacion = new Validacion();
-                validacion.Show();
+                lblerror.Visible = true;
             }
         }
 
@@ -94,13 +93,13 @@ namespace Hotel_Rivera
         {
             CambioContraseña contrasena = new CambioContraseña();
             contrasena.Show();
+            lblerror.Visible = false;
                        
         }
 
         private void Inicio_Load(object sender, EventArgs e)
         {
             txtContrasena.UseSystemPasswordChar = true;
-
             this.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
             //txtContrasena.Size = new Size(230,30);
             //txtContrasena.BorderStyle = BorderStyle.None;
@@ -110,6 +109,19 @@ namespace Hotel_Rivera
         [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, int nWidthEllipse, int nHeightEllipse);
 
-        
+        private void btnIngresarNegro_MouseLeave(object sender, EventArgs e)
+        {
+            btnIngresarNegro.BringToFront();
+        }
+
+        private void btnIngresarNegro_MouseMove(object sender, MouseEventArgs e)
+        {
+            btnIngresarBlanco.BringToFront();
+        }
+
+        private void btnIngresarNegro_Click(object sender, EventArgs e)
+        {
+            Ingresar();            
+        }
     }
 }

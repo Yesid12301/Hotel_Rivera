@@ -47,8 +47,41 @@ namespace Hotel_Rivera.Presentacion
         private void Opciones_Load(object sender, EventArgs e)
         {
             this.Location = Screen.PrimaryScreen.WorkingArea.Location;
-            this.Size = Screen.PrimaryScreen.WorkingArea.Size;               
-        }     
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
+        }
+
+        private void btnReservas_Click(object sender, EventArgs e)
+        {
+            this.pContenedor.Controls.Clear();
+            btnReservas.BackColor = Color.SteelBlue;
+        }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            this.pContenedor.Controls.Clear();
+            btnRegistro.BackColor = Color.SteelBlue;
+        }
+
+        private void btnHabitaciones_Click(object sender, EventArgs e)
+        {
+            btnHabitaciones.BackColor = Color.SteelBlue;
+            abrirForm(new Habitaciones());
+        }
+
+        private void btnInformes_Click(object sender, EventArgs e)
+        {
+            this.pContenedor.Controls.Clear();
+            btnInformes.BackColor = Color.SteelBlue;
+        }
+        private void abrirForm(Form formulario)
+        {
+            this.pContenedor.Controls.Clear();
+            formulario.TopLevel = false;
+            formulario.Dock = DockStyle.Fill;
+            this.pContenedor.Controls.Add(formulario);
+            this.pContenedor.Tag = formulario;
+            formulario.Show();
+        }
     }
 }
 
